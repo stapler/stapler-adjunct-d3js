@@ -1,0 +1,51 @@
+<?xml version="1.0"?>     
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.kohsuke.stapler</groupId>
+  <artifactId>stapler-adjunct-d3</artifactId>
+  <version>2.9.5-SNAPSHOT</version>
+  <name>D3.js</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.kohsuke.stapler</groupId>
+      <artifactId>stapler</artifactId>
+      <version>[1.140,)</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.4</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+
+  <scm>
+    <connection>scm:git:git://github.com/stapler/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/stapler/${project.artifactId}.git</developerConnection>
+    <url>https://github.com/stapler/stapler</url>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>http://maven.jenkins-ci.org:8081/content/repositories/releases/</url>
+    </repository>
+  </distributionManagement>
+
+  <repositories>
+    <repository>
+      <id>repo.jenkins-ci.org</id>
+      <url>http://repo.jenkins-ci.org/public/</url>
+    </repository>
+  </repositories>
+
+  <!-- TODO: find out the license of d3.js
+  <licenses>
+    <license>
+      <name>BSD License</name>
+      <url>http://simile.mit.edu/license.html</url>
+    </license>
+  </licenses>
+  -->
+</project>
