@@ -40,12 +40,10 @@
     </repository>
   </repositories>
 
-  <!-- TODO: find out the license of d3.js
   <licenses>
     <license>
       <name>BSD License</name>
-      <url>http://simile.mit.edu/license.html</url>
+      <url>https://github.com/mbostock/d3</url>
     </license>
   </licenses>
-  -->
 </project>
